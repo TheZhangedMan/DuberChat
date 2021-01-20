@@ -48,7 +48,7 @@ class ChatClient {
    */
   public void requestLogin() {
     // call a method that connects to the server 
-    connect("25.6.165.81", 5000);
+    connect("127.0.0.1", 5000);
     
     try {
       logo = ImageIO.read(new File("logo.png"));
